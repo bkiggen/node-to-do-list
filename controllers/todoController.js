@@ -12,7 +12,6 @@ var todoSchema = new mongoose.Schema({
 var Todo = mongoose.model('Todo', todoSchema);
 
 
-// var data = [{item: 'get milk'}, {item: 'walk dog'}, {item: 'kick some coding ass'}];
 
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
